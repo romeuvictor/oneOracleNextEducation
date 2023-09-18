@@ -1,6 +1,6 @@
 package javaPilha;
 
-public class MinhaExcecao extends RuntimeException{
+public class MinhaExcecao extends Exception{//checked
 	
 	public MinhaExcecao(String msg) {
 		super(msg);
